@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+}
+.test{
+    justify-content: space-around;
+}
+
+.header .menu ul li{
+    list-style: none;
+    padding: 20px;
+    font-size: 17px;
+    font-family: inherit;
+}
+
+.gour .gour-img{
+    height: 350px;
+    width: 100px;
+    margin: auto;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -120px;
+}
+.gour .gour-img img{
+width: 100%;
+height:100%
+}
+.header{
+    background: #fff;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+}
+.gour{
+    background: url(../photo/slider-bg-gourmet-3.jpg);
+height: 100vh;
+background-size: 50%;
+background-position:center ;
+background-repeat: no-repeat;
+}
+.gour .gour-text{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    color: rgb(205, 155, 51);
+}
+.gour .gour-text h2 span{
+margin-left: 20px;
+
+}
+.gour .gour-text h2{
+    font-size: 3.5em;
+    font-family: inherit;
+}
+.nav-right i{
+    margin-right: 10px;
+margin-top: 20px;
+}
+.logo h2{
+    margin-top: 20px;
+}
